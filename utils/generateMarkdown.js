@@ -59,46 +59,44 @@ function renderLicenseSection( license ) {
 };
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown( data ) {
+function generateMarkdown( readmeData ) {
    return `
-      # ${data.projectTitle}
-
-      ${renderLicenseBadge( data.licenseBadge )}
+      # ${readmeData.projectTitle}
 
       ## Table of Contents
-      1. [Description](#description)
-      2. [Installation](#installation)
-      3. [Usage](#usage)
-      4. [Contributing](#contributing)
-      5. [Tests](#tests)
-      6. [License](#license)
-      7. [Questions](#questions)
+      1. **[Description](#description)**
+      2. **[Installation](#installation)**
+      3. **[Usage](#usage)**
+      4. **[Contributing](#contributing)**
+      5. **[Tests](#tests)**
+      6. **[License](#license)**
+      7. **[Questions](#questions)**
 
       ## Description: 
-      ${data.projectDesc}
+      ${readmeData.projectDesc}
 
       ## Installation:
-      ${data.installInstr}
+      ${readmeData.installInstr}
 
       ## Usage:
-      ${data.usageInfo}
+      ${readmeData.usageInfo}
 
       ## Contributing:
-      ${data.contributingInstr}
+      ${readmeData.contributingInstr}
 
       ## Tests:
-      ${data.testInstr}
+      ${readmeData.testInstr}
 
       ## License:
-      The license for this application is covered under ${renderLicenseSection(data.licenseBadge)}.<br>
-      More licensing information can be viewd here: ${renderLicenseLink(data.licenseBadge)}
+      ${renderLicenseBadge( readmeData.licenseBadge )}
+      The license for this application is covered under ${renderLicenseSection(readmeData.licenseBadge)}.<br>
+      Licensing information can be viewed here: ${renderLicenseLink(readmeData.licenseBadge)}
 
 
       ## Questions:
-      ${data.projectDesc}
-      The author may be reached via email and/or GitHub at:
-      <https://github.com/${data.githubUsername}><br>
-      <${data.email}>
+      The author may be reached via email and/or GitHub at:<br>
+      [Github Contact](https://github.com/${readmeData.githubUsername})
+      [Email Contact](${readmeData.email})
    `;
 };
 

@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require( "inquirer" );
 const fs = require( "fs" ); 
-const Choice = require('inquirer/lib/objects/choice');
+//const Choice = require('inquirer/lib/objects/choice');
+//const generateMarkdown = require('./utils/generateMarkdown');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Get user input
@@ -131,7 +132,7 @@ const promptUser = ( data ) => {
 // TODO: Create a function to write README file
 const writeToFile = readmeData => {
    return new Promise(( resolve, reject ) => {
-       fs.writeFile('./dist/README.md', readmeData, err => {
+       fs.writeFile( './README.md', readmeData, err => {
          // If there's an error, reject the Promise and send the error to the 
          // Promise's `.catch() ` method
          if ( err ) {
