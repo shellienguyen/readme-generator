@@ -80,13 +80,13 @@ const promptUser = ( data ) => {
       {
          type: "input",
          name: "testInstr",
-         message: "Please enter usage information:",
+         message: "Please enter test information:",
          validate: testInstrInput => {
             if ( testInstrInput && testInstrInput.trim().length > 0 ) {
                return true;
             }
             else {
-               console.log( "Please enter usage information:" );
+               console.log( "Please enter test information:" );
                return false;
             };
          }
