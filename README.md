@@ -41,7 +41,7 @@ README.md filename  and choose the "Open Preview" option to view the README.md f
 
 ### Instuctional Video
 
-For a demonstration on how to run this application, please watch this video:
+For a demonstration on how to run this application, please watch this video: https://drive.google.com/file/d/1hXW-GDtHH1_Jmlt_PQgfSmmsMBSuIu1q/view
 
 ### Screenshots
 
