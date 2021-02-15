@@ -51,5 +51,5 @@ Below are screenshots of the user-input questions and the generated README.md fo
 <br><br>
 ![Mockup](https://github.com/shellienguyen/readme-generator/blob/main/assets/images/user-input2.jpg)
 <br><br>
-![Mockup](https://github.com/shellienguyen/readme-generator/blob/main/assets/images/mockup.jpg)
+![Mockup](https://github.com/shellienguyen/readme-generator/blob/main/assets/images/sample-readme.jpg)
 
