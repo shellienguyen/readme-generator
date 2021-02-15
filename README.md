@@ -45,4 +45,11 @@ For a demonstration on how to run this application, please watch this video: htt
 
 ### Screenshots
 
-Below are screenshots of the questions and the generated README.md for your reference.
+Below are screenshots of the user-input questions and the generated README.md for your reference:
+
+![Mockup](https://github.com/shellienguyen/readme-generator/blob/main/assets/images/user-input1.jpg)
+<br><br>
+![Mockup](https://github.com/shellienguyen/readme-generator/blob/main/assets/images/user-input2.jpg)
+<br><br>
+![Mockup](https://github.com/shellienguyen/readme-generator/blob/main/assets/images/mockup.jpg)
+
