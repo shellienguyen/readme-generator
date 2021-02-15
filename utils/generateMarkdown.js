@@ -90,7 +90,9 @@ function generateMarkdown( data ) {
       ${data.testInstr}
 
       ## License:
-      ${data.licenseBadge}
+      ${renderLicenseLink(data.licenseBadge)}
+      ${renderLicenseSection(data.licenseBadge)}
+
 
       ## Questions:
       ${data.projectDesc}

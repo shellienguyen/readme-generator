@@ -1,7 +1,7 @@
 
       # Run Buddy
 
-      <img src="https://img.shields.io/badge/license-ISC-blue" alt="" />
+      <img src="https://img.shields.io/badge/license-MIT-blue" alt="" />
 
       ## Table of Contents
       1. [Description](#description)
@@ -13,25 +13,27 @@
       7. [Questions](#questions)
 
       ## Description: 
-      Desc
+      Run Buddy Description
 
       ## Installation:
-      Install
+      Installation Instructions
 
       ## Usage:
-      Usage
+      Usage Info
 
       ## Contributing:
-      Contributing
+      Contributing INfo
 
       ## Tests:
-      Test
+      Test Info
 
       ## License:
-      ISC
+      [MIT license](https://www.mit.edu/~amini/LICENSE.md)
+      The MIT License
+
 
       ## Questions:
-      Desc
+      Run Buddy Description
       The author may be reached via email and/or GitHub at:
       <https://github.com/shellienguyen><br>
       <shellie@shellie.com>
