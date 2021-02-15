@@ -2,7 +2,7 @@
 # Weather Dashboard
 
 ## Description: 
-Provides users with a weather dashboard that displays the current and forecasted weather for a city.
+This app gets weather forecast for a specific city anywhere in the world.
 
 ## Table of Contents
 1. **[Installation](#installation)**
@@ -13,22 +13,22 @@ Provides users with a weather dashboard that displays the current and forecasted
 6. **[Questions](#questions)**
 
 ## Installation:
-Users go directly to the website to use the dashboard.
+Go directly to the website
 
 ## Usage:
-Users will input a city name, can either be domestic or international.
+Enter a city name
 
 ## License:
 Licensing information can be viewed at:
-[GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0)
-<br>The license for this application is covered under GNU General Public License.
-<img src="https://img.shields.io/badge/license-GNU GPLv3-blue" alt="" />
+[Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
+<br>The license for this application is covered under Mozilla Public License.
+<img src="https://img.shields.io/badge/license-Mozilla Public License 2.0-blue" alt="" />
 
 ## Contributing:
-Shellie Nguyen created this application based on a mockup provided by the UCLA extension program.
+Developed by Shellie Nguyen using a mockup provided by UCLA
 
 ## Tests:
-Enter in any city name in the world or click on a city from the search history list.
+enter a city name or click one from the search history list
 
 ## Questions:
 The author may be reached via:
