@@ -1,38 +1,37 @@
 
-      # Surf Conditions
+# Surf Conditions
 
-      ## Table of Contents
-      1. **[Description](#description)**
-      2. **[Installation](#installation)**
-      3. **[Usage](#usage)**
-      4. **[Contributing](#contributing)**
-      5. **[Tests](#tests)**
-      6. **[License](#license)**
-      7. **[Questions](#questions)**
+## Table of Contents
+1. **[Description](#description)**
+2. **[Installation](#installation)**
+3. **[Usage](#usage)**
+4. **[Contributing](#contributing)**
+5. **[Tests](#tests)**
+6. **[License](#license)**
+7. **[Questions](#questions)**
 
-      ## Description: 
-      Description
+## Description: 
+The description for the project goes here
 
-      ## Installation:
-      Installation Instructions
+## Installation:
+The installation instructions go here
 
-      ## Usage:
-      Usage Info
+## Usage:
+The usage information goes here
 
-      ## Contributing:
-      Contributing Info
+## Contributing:
+The contributing information goes here
 
-      ## Tests:
-      Test Info
+## Tests:
+The test information goes here
 
-      ## License:
-      <img src="https://img.shields.io/badge/license-Apache License 2.0-blue" alt="" />
-      The license for this application is covered under the Apache Software Foundation.<br>
-      Licensing information can be viewed here: [Apache License 2.0](http://www.apache.org/licenses/)
+## License:
+Licensing information can be viewed at:
+[Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
+<br>The license for this application is covered under Mozilla Public License.
+<img src="https://img.shields.io/badge/license-Mozilla Public License 2.0-blue" alt="" />
 
-
-      ## Questions:
-      The author may be reached via email and/or GitHub at:<br>
-      [Github Contact](https://github.com/shellienguyen)
-      [Email Contact](shellie@shellie.com)
-   
+## Questions:
+The author may be reached via:
+[Github](https://github.com/shellienguyen)
+[Email](mailto:shellie@shellie.com)

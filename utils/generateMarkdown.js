@@ -7,22 +7,22 @@ let renderLicenseBadge = ( license ) => { return `<img src="https://img.shields.
 function renderLicenseLink( license ) {
    switch ( license ) {
       case "Apache License 2.0":
-         return `[Apache License 2.0](http://www.apache.org/licenses/)`;
+         return "www.apache.org/licenses/";
          break;
       case "GNU GPLv3":
-         return `[GNU GPLv3 license](https://www.gnu.org/licenses/gpl-3.0)`;
+         return "www.gnu.org/licenses/gpl-3.0";
          break;
       case "MIT":
-         return `[MIT license](https://www.mit.edu/~amini/LICENSE.md)`;
+         return "www.mit.edu/~amini/LICENSE.md";
          break;
       case "ISC":
-         return `[ISC license](https://www.isc.org/licenses/)`;
+         return "www.isc.org/licenses/";
          break;
       case "Mozilla Public License 2.0":
-         return `[Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)`;
+         return "www.mozilla.org/en-US/MPL/2.0/";
          break;
       case "The Unlicense":
-         return `[The Unlicense](https://choosealicense.com/licenses/unlicense/)`;
+         return "choosealicense.com/licenses/unlicense/";
          break;
       default:
         return "";
@@ -61,43 +61,43 @@ function renderLicenseSection( license ) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown( readmeData ) {
    return `
-      # ${readmeData.projectTitle}
+# ${readmeData.projectTitle}
 
-      ## Table of Contents
-      1. **[Description](#description)**
-      2. **[Installation](#installation)**
-      3. **[Usage](#usage)**
-      4. **[Contributing](#contributing)**
-      5. **[Tests](#tests)**
-      6. **[License](#license)**
-      7. **[Questions](#questions)**
+## Table of Contents
+1. **[Description](#description)**
+2. **[Installation](#installation)**
+3. **[Usage](#usage)**
+4. **[Contributing](#contributing)**
+5. **[Tests](#tests)**
+6. **[License](#license)**
+7. **[Questions](#questions)**
 
-      ## Description: 
-      ${readmeData.projectDesc}
+## Description: 
+${readmeData.projectDesc}
 
-      ## Installation:
-      ${readmeData.installInstr}
+## Installation:
+${readmeData.installInstr}
 
-      ## Usage:
-      ${readmeData.usageInfo}
+## Usage:
+${readmeData.usageInfo}
 
-      ## Contributing:
-      ${readmeData.contributingInstr}
+## Contributing:
+${readmeData.contributingInstr}
 
-      ## Tests:
-      ${readmeData.testInstr}
+## Tests:
+${readmeData.testInstr}
 
-      ## License:
-      ${renderLicenseBadge( readmeData.licenseBadge )}
-      The license for this application is covered under ${renderLicenseSection(readmeData.licenseBadge)}.<br>
-      Licensing information can be viewed here: ${renderLicenseLink(readmeData.licenseBadge)}
+## License:
+Licensing information can be viewed at:
+[${readmeData.licenseBadge}](https://${renderLicenseLink( readmeData.licenseBadge )})
+<br>The license for this application is covered under ${renderLicenseSection( readmeData.licenseBadge )}.
+${renderLicenseBadge( readmeData.licenseBadge )}
 
-
-      ## Questions:
-      The author may be reached via email and/or GitHub at:<br>
-      [Github Contact](https://github.com/${readmeData.githubUsername})
-      [Email Contact](${readmeData.email})
-   `;
+## Questions:
+The author may be reached via:
+[Github](https://github.com/${readmeData.githubUsername})
+[Email](mailto:${readmeData.email})
+`;
 };
 
 module.exports = generateMarkdown;
