@@ -1,11 +1,9 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const inquirer = require( "inquirer" );
 const fs = require( "fs" ); 
-//const Choice = require('inquirer/lib/objects/choice');
-//const generateMarkdown = require('./utils/generateMarkdown');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Get user input
+// Get user input
 const promptUser = ( data ) => {
    return inquirer.prompt([
       {
@@ -129,7 +127,7 @@ const promptUser = ( data ) => {
    ]);
 };
 
-// TODO: Create a function to write README file
+// This function writes the README file
 const writeToFile = readmeData => {
    return new Promise(( resolve, reject ) => {
        fs.writeFile( './dist/README.md', readmeData, err => {
@@ -152,7 +150,7 @@ const writeToFile = readmeData => {
    });
 };
 
-// TODO: Create a function to initialize app
+// Initialize the application
 function init() {
    promptUser()
    .then( readmeData => {
@@ -160,5 +158,5 @@ function init() {
    });
 };
 
-// Function call to initialize app
+// Function call to initialize application
 init();

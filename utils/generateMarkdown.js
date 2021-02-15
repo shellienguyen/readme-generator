@@ -1,9 +1,7 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// This function returns a license badge based on the license, return an empty string if there's no license
 let renderLicenseBadge = ( license ) => { return `<img src="https://img.shields.io/badge/license-${license}-blue" alt="" />`;}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// This function returns the license link and returns an empty string if there's no link
 function renderLicenseLink( license ) {
    switch ( license ) {
       case "Apache License 2.0":
@@ -30,8 +28,7 @@ function renderLicenseLink( license ) {
   };
 };
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// This function returns the info where the license is covered under, returns an empty string if there's no license
 function renderLicenseSection( license ) {
    switch ( license ) {
       case "Apache License 2.0":
@@ -58,22 +55,21 @@ function renderLicenseSection( license ) {
    };
 };
 
-// TODO: Create a function to generate markdown for README
+// This function generates a markdown for README file using user's input
 function generateMarkdown( readmeData ) {
    return `
 # ${readmeData.projectTitle}
 
-## Table of Contents
-1. **[Description](#description)**
-2. **[Installation](#installation)**
-3. **[Usage](#usage)**
-4. **[Contributing](#contributing)**
-5. **[Tests](#tests)**
-6. **[License](#license)**
-7. **[Questions](#questions)**
-
 ## Description: 
 ${readmeData.projectDesc}
+
+## Table of Contents
+1. **[Installation](#installation)**
+2. **[Usage](#usage)**
+3. **[License](#license)**
+4. **[Contributing](#contributing)**
+5. **[Tests](#tests)**
+6. **[Questions](#questions)**
 
 ## Installation:
 ${readmeData.installInstr}
@@ -81,17 +77,17 @@ ${readmeData.installInstr}
 ## Usage:
 ${readmeData.usageInfo}
 
-## Contributing:
-${readmeData.contributingInstr}
-
-## Tests:
-${readmeData.testInstr}
-
 ## License:
 Licensing information can be viewed at:
 [${readmeData.licenseBadge}](https://${renderLicenseLink( readmeData.licenseBadge )})
 <br>The license for this application is covered under ${renderLicenseSection( readmeData.licenseBadge )}.
 ${renderLicenseBadge( readmeData.licenseBadge )}
+
+## Contributing:
+${readmeData.contributingInstr}
+
+## Tests:
+${readmeData.testInstr}
 
 ## Questions:
 The author may be reached via:
@@ -100,4 +96,5 @@ The author may be reached via:
 `;
 };
 
+// Export the generateMarkdown function to be called when the program writes to a file
 module.exports = generateMarkdown;
