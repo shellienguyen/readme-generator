@@ -90,8 +90,8 @@ function generateMarkdown( data ) {
       ${data.testInstr}
 
       ## License:
-      ${renderLicenseLink(data.licenseBadge)}
-      ${renderLicenseSection(data.licenseBadge)}
+      The license for this application is covered under ${renderLicenseSection(data.licenseBadge)}.<br>
+      More licensing information can be viewd here: ${renderLicenseLink(data.licenseBadge)}
 
 
       ## Questions:

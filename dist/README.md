@@ -1,7 +1,7 @@
 
       # Run Buddy
 
-      <img src="https://img.shields.io/badge/license-MIT-blue" alt="" />
+      <img src="https://img.shields.io/badge/license-Mozilla Public License 2.0-blue" alt="" />
 
       ## Table of Contents
       1. [Description](#description)
@@ -13,27 +13,27 @@
       7. [Questions](#questions)
 
       ## Description: 
-      Run Buddy Description
+      Description
 
       ## Installation:
-      Installation Instructions
+      Installation Instruction
 
       ## Usage:
       Usage Info
 
       ## Contributing:
-      Contributing INfo
+      Contributing info
 
       ## Tests:
-      Test Info
+      test info
 
       ## License:
-      [MIT license](https://www.mit.edu/~amini/LICENSE.md)
-      The MIT License
+      The license for this application is covered under Mozilla Public License.<br>
+      More licensing information can be viewd here: [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 
 
       ## Questions:
-      Run Buddy Description
+      Description
       The author may be reached via email and/or GitHub at:
       <https://github.com/shellienguyen><br>
       <shellie@shellie.com>
