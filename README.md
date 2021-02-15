@@ -16,7 +16,7 @@ The application then uses those input to generate a README.md file.  Users are f
 * Test information: Any testing information specific to the application can be provided in this section.
 * Questions: This sections provides contact information to the application author/creator should the users wish to contact for further information.
 
-### How to use this README.md Generator:
+### How to clone this README.md Generator:
 
 1. In your browser, navigate to the (https://github.com/shellienguyen/readme-generator) GitHub repository.
 2. Click the green button that says “Code” and copy the SSH key to your clipboard.
