@@ -1,5 +1,5 @@
 
-      # Run Buddy
+      # Surf Conditions
 
       ## Table of Contents
       1. **[Description](#description)**
@@ -11,7 +11,7 @@
       7. **[Questions](#questions)**
 
       ## Description: 
-      Desc
+      Description
 
       ## Installation:
       Installation Instructions
@@ -26,9 +26,9 @@
       Test Info
 
       ## License:
-      <img src="https://img.shields.io/badge/license-Mozilla Public License 2.0-blue" alt="" />
-      The license for this application is covered under Mozilla Public License.<br>
-      Licensing information can be viewed here: [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
+      <img src="https://img.shields.io/badge/license-Apache License 2.0-blue" alt="" />
+      The license for this application is covered under the Apache Software Foundation.<br>
+      Licensing information can be viewed here: [Apache License 2.0](http://www.apache.org/licenses/)
 
 
       ## Questions:
